@@ -1,0 +1,125 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  background-color: black;
+  min-height: 100vh;
+}
+
+header {
+  background-color: teal;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 50px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#first-section h2 {
+  text-align: center;
+  color: teal;
+}
+
+#first-section {
+  width: 55%;
+  height: 100%;
+  position: relative;
+  top: 30px;
+  left: 190px;
+  color: white;
+  border: 2px solid teal;
+  padding: 10px;
+  float: left;
+}
+
+#float-left {
+  float: left;
+  width: 350px;
+  height: 300px;
+  padding-right: 10px;
+}
+
+#second-section {
+  width: 55%;
+  height: 100%;
+  position: relative;
+  top: 40px;
+  left: 190px;
+  color: white;
+  border: 2px solid teal;
+  padding: 10px;
+  float: left;
+}
+
+#second-section h2 {
+  text-align: center;
+  color: teal;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  height: 100%;
+  border: 2px solid teal;
+  display: inline;
+  position: relative;
+  top: -385px;
+  right: 190px;
+  bottom: 30px;
+}
+
+aside section {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+aside section h3 {
+  text-align: center;
+  color: teal;
+}
+
+footer {
+  color: white;
+  border-top: 2px solid teal;
+  position: absolute;
+  bottom: 0px;
+  right: 190px;
+  width: 80%;
+  text-align: center;
+}
+
+#author {
+  color: teal;
+}
